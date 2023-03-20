@@ -37,11 +37,9 @@ Hi, I'm Muhammad Khoyron Ahlaqul F, a Junio Full Stack Web Developer 🚀 from I
 <a href="https://github.com/AlulCode45/e-perpus">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=AlulCode45&repo=e-perpus" />
 </a>
-
 <a href="https://github.com/AlulCode45/cuacainf">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=AlulCode45&repo=cuacainf" />
 </a>
-<br>
 <a href="https://github.com/AlulCode45/phytagoras">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=AlulCode45&repo=phytagoras" />
 </a>
