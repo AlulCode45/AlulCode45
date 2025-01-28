@@ -15,8 +15,7 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats-sigma-umber-16.vercel.app/api?username=AlulCode45&theme=slateorange&hide_border=false&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&include_all_commits=true)<br/>
-![](https://github-readme-stats-sigma-umber-16.vercel.app/?user=AlulCode45&theme=slateorange&hide_border=false)<br/>
-![](https://github-readme-stats-sigma-umber-16.vercel.app/api/top-langs/?username=AlulCode45&theme=slateorange&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats-sigma-umber-16.vercel.app/api/top-langs/?username=AlulCode45&theme=slateorange&hide_border=false&include_all_commits=true&count_private=true&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=AlulCode45&theme=radical&no-frame=false&no-bg=true&margin-w=4)
