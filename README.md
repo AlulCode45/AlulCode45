@@ -1,10 +1,8 @@
 # 💫 About Me:
-🔭 I am currently studying at SMKN 4 Bojonegoro<br>
 👯 I want to collaborate on all my projects<br>
 🌱 I'm currently learning vue <br>
 💬 Ask me about react, next, laravel, and php<br>
-⚡ Fun fact I'm only 18 years old<br>
-👨‍💻 Laravel Developer at Black Wolf Tech Indonesia<br>
+👨‍💻 Laravel Developer at PT Pusat Andalan Sukses<br>
 
 
 ## 🌐 Socials:
