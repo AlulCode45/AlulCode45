@@ -2,7 +2,7 @@
 👯 I want to collaborate on all my projects<br>
 🌱 I'm currently learning vue <br>
 💬 Ask me about react, next, laravel, and php<br>
-👨‍💻 Laravel Developer at PT Pusat Andalan Sukses<br>
+👨‍💻 Developer at PT Pusat Andalan Sukses<br>
 
 
 ## 🌐 Socials:
