@@ -1,3 +1,4 @@
+![Header](https://raw.githubusercontent.com/AlulCode45/AlulCode45/refs/heads/main/github-header-banner.png)
 # 💫 About Me:
 👯 I want to collaborate on all my projects<br>
 🌱 I'm currently learning vue <br>
