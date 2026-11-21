@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0C14"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="gradPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9814DC"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="gradEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="gradAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="gradIndigo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+  </style>
+
+  <!-- Project 01: ATraderTerminal Pro -->
+  <g transform="translate(0, 0)">
+    <rect x="1" y="1" width="588" height="202" rx="14" fill="url(#pCardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="588" height="4" rx="2" fill="url(#gradPurple)"/>
+
+    <text x="26" y="34" fill="#C084FC" font-size="11" font-weight="700" letter-spacing="1.5" class="font-mono">01 // FINANCIAL MARKET INTELLIGENCE</text>
+    <rect x="442" y="18" width="122" height="22" rx="11" fill="#112220" stroke="#10B981" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="456" cy="29" r="3.5" fill="#10B981"/>
+    <text x="467" y="33" fill="#A7F3D0" font-size="10" font-weight="700" letter-spacing="1" class="font-mono">PRODUCTION</text>
+
+    <text x="26" y="68" fill="#F8FAFC" font-size="22" font-weight="800" class="font-sans">ATraderTerminal Pro</text>
+    <text x="26" y="95" fill="#CBD5E1" font-size="13" class="font-sans">Bloomberg-grade institutional financial &amp; macro analytics terminal with 12ms</text>
+    <text x="26" y="114" fill="#CBD5E1" font-size="13" class="font-sans">WebSocket quote streaming, Macro Bias Engine (0–100), CFTC COT positioning,</text>
+    <text x="26" y="133" fill="#CBD5E1" font-size="13" class="font-sans">and DeepSeek &amp; Gemini AI Macro Strategist synthesis.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(26, 156)" class="font-mono" font-size="11" fill="#E2E8F0">
+      <rect x="0" y="0" width="74" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="37" y="16.5" text-anchor="middle">Next.js</text>
+
+      <rect x="82" y="0" width="90" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="127" y="16.5" text-anchor="middle">TypeScript</text>
+
+      <rect x="180" y="0" width="88" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="224" y="16.5" text-anchor="middle">WebSocket</text>
+
+      <rect x="276" y="0" width="98" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="325" y="16.5" text-anchor="middle">DeepSeek AI</text>
+
+      <rect x="382" y="0" width="124" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="444" y="16.5" text-anchor="middle">Python Scrapers</text>
+    </g>
+  </g>
+
+  <!-- Project 02: Boostera Indonesia -->
+  <g transform="translate(612, 0)">
+    <rect x="1" y="1" width="587" height="202" rx="14" fill="url(#pCardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="587" height="4" rx="2" fill="url(#gradEmerald)"/>
+
+    <text x="26" y="34" fill="#38BDF8" font-size="11" font-weight="700" letter-spacing="1.5" class="font-mono">02 // AI MARKETING AUTOMATION SUITE</text>
+    <rect x="442" y="18" width="122" height="22" rx="11" fill="#112220" stroke="#10B981" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="456" cy="29" r="3.5" fill="#10B981"/>
+    <text x="467" y="33" fill="#A7F3D0" font-size="10" font-weight="700" letter-spacing="1" class="font-mono">PRODUCTION</text>
+
+    <text x="26" y="68" fill="#F8FAFC" font-size="22" font-weight="800" class="font-sans">Boostera Indonesia</text>
+    <text x="26" y="95" fill="#CBD5E1" font-size="13" class="font-sans">AI-powered marketing &amp; social media automation platform tailored for Indonesian</text>
+    <text x="26" y="114" fill="#CBD5E1" font-size="13" class="font-sans">MSMEs (UMKM)—generating high-converting ad copy, instant campaign visuals,</text>
+    <text x="26" y="133" fill="#CBD5E1" font-size="13" class="font-sans">WhatsApp storefront integration, and multi-channel content scheduling.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(26, 156)" class="font-mono" font-size="11" fill="#E2E8F0">
+      <rect x="0" y="0" width="74" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="37" y="16.5" text-anchor="middle">Next.js</text>
+
+      <rect x="82" y="0" width="90" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="127" y="16.5" text-anchor="middle">TypeScript</text>
+
+      <rect x="180" y="0" width="96" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="228" y="16.5" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="284" y="0" width="106" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="337" y="16.5" text-anchor="middle">WhatsApp API</text>
+
+      <rect x="398" y="0" width="112" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="454" y="16.5" text-anchor="middle">LLM Pipelines</text>
+    </g>
+  </g>
+
+  <!-- Project 03: JagatByte Studio -->
+  <g transform="translate(0, 224)">
+    <rect x="1" y="1" width="588" height="202" rx="14" fill="url(#pCardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="588" height="4" rx="2" fill="url(#gradIndigo)"/>
+
+    <text x="26" y="34" fill="#818CF8" font-size="11" font-weight="700" letter-spacing="1.5" class="font-mono">03 // FOUNDED DIGITAL PRODUCT STUDIO</text>
+    <rect x="424" y="18" width="140" height="22" rx="11" fill="#1D1633" stroke="#818CF8" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="438" cy="29" r="3.5" fill="#818CF8"/>
+    <text x="449" y="33" fill="#E0E7FF" font-size="10" font-weight="700" letter-spacing="1" class="font-mono">FOUNDER &amp; LEAD</text>
+
+    <text x="26" y="68" fill="#F8FAFC" font-size="22" font-weight="800" class="font-sans">JagatByte Digital Startup</text>
+    <text x="26" y="95" fill="#CBD5E1" font-size="13" class="font-sans">Independent digital product studio engineering institutional-grade web systems—</text>
+    <text x="26" y="114" fill="#CBD5E1" font-size="13" class="font-sans">helping businesses and ambitious teams ship software with architectural clarity,</text>
+    <text x="26" y="133" fill="#CBD5E1" font-size="13" class="font-sans">rapid release momentum, and long-term operational durability.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(26, 156)" class="font-mono" font-size="11" fill="#E2E8F0">
+      <rect x="0" y="0" width="118" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="59" y="16.5" text-anchor="middle">Design Systems</text>
+
+      <rect x="126" y="0" width="74" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="163" y="16.5" text-anchor="middle">Laravel</text>
+
+      <rect x="208" y="0" width="74" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="245" y="16.5" text-anchor="middle">Next.js</text>
+
+      <rect x="290" y="0" width="70" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="325" y="16.5" text-anchor="middle">Docker</text>
+
+      <rect x="368" y="0" width="136" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="436" y="16.5" text-anchor="middle">State Architecture</text>
+    </g>
+  </g>
+
+  <!-- Project 04: Malang Alam Property -->
+  <g transform="translate(612, 224)">
+    <rect x="1" y="1" width="587" height="202" rx="14" fill="url(#pCardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="587" height="4" rx="2" fill="url(#gradAmber)"/>
+
+    <text x="26" y="34" fill="#FBBF24" font-size="11" font-weight="700" letter-spacing="1.5" class="font-mono">04 // CURATED REAL ESTATE DISCOVERY</text>
+    <rect x="442" y="18" width="122" height="22" rx="11" fill="#271C10" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="456" cy="29" r="3.5" fill="#F59E0B"/>
+    <text x="467" y="33" fill="#FDE68A" font-size="10" font-weight="700" letter-spacing="1" class="font-mono">LIVE SYSTEM</text>
+
+    <text x="26" y="68" fill="#F8FAFC" font-size="22" font-weight="800" class="font-sans">Malang Alam Property</text>
+    <text x="26" y="95" fill="#CBD5E1" font-size="13" class="font-sans">Architectural magazine-inspired real estate discovery platform for Greater Malang.</text>
+    <text x="26" y="114" fill="#CBD5E1" font-size="13" class="font-sans">Combines high-fashion editorial serif typography, cinematic image choreography,</text>
+    <text x="26" y="133" fill="#CBD5E1" font-size="13" class="font-sans">interactive geospatial mapping, SEO engine, and private consultation workflows.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(26, 156)" class="font-mono" font-size="11" fill="#E2E8F0">
+      <rect x="0" y="0" width="74" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="37" y="16.5" text-anchor="middle">Next.js</text>
+
+      <rect x="82" y="0" width="90" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="127" y="16.5" text-anchor="middle">TypeScript</text>
+
+      <rect x="180" y="0" width="124" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="242" y="16.5" text-anchor="middle">Interactive Maps</text>
+
+      <rect x="312" y="0" width="96" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="360" y="16.5" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="416" y="0" width="94" height="25" rx="6" fill="#161B26" stroke="#334155"/>
+      <text x="463" y="16.5" text-anchor="middle">SEO Engine</text>
+    </g>
+  </g>
+</svg>

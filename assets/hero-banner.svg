@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07070B"/>
+      <stop offset="50%" stop-color="#0C0A14"/>
+      <stop offset="100%" stop-color="#080B12"/>
+    </linearGradient>
+
+    <radialGradient id="purpleGlow" cx="25%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#9814DC" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#07070B" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="85%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#07070B" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="45%" stop-color="#9814DC"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9814DC" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13111C" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0B0A10" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.45"/>
+      <circle cx="40" cy="40" r="1" fill="#475569" fill-opacity="0.4"/>
+    </pattern>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .pulse { animation: pulseAnim 2.4s infinite ease-in-out; }
+    @keyframes pulseAnim {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="380" rx="18" fill="url(#bgGrad)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#purpleGlow)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#cyanGlow)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#gridPattern)"/>
+
+  <!-- Top & Bottom Architectural Accent Lines -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accentGrad)"/>
+  <line x1="56" y1="54" x2="1144" y2="54" stroke="#1E293B" stroke-width="1"/>
+  <line x1="56" y1="334" x2="1144" y2="334" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Outer Frame Border -->
+  <rect x="1" y="1" width="1198" height="378" rx="17" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Top Editorial Metadata Bar -->
+  <g transform="translate(56, 34)">
+    <text x="0" y="0" fill="#94A3B8" font-size="11" font-weight="600" letter-spacing="2.5" class="font-mono">VOL. 2026 // DIGITAL MONOGRAPH &amp; ENGINEERING DOSSIER</text>
+    <text x="595" y="0" fill="#64748B" font-size="11" font-weight="500" letter-spacing="1.5" class="font-mono">LOC: MALANG, ID (7.9666° S, 112.6326° E)</text>
+    <circle cx="950" cy="-4" r="4" fill="#10B981" class="pulse"/>
+    <text x="962" y="0" fill="#10B981" font-size="11" font-weight="600" letter-spacing="1.5" class="font-mono">SYS.STATUS: ONLINE</text>
+  </g>
+
+  <!-- Left Column: Identity & AC Monogram -->
+  <g transform="translate(56, 82)">
+    <!-- AC Monogram Badge -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#151221" stroke="url(#accentGrad)" stroke-width="1.5"/>
+      <text x="26" y="33" text-anchor="middle" fill="#F8FAFC" font-size="20" font-weight="800" letter-spacing="1" class="font-mono">AC</text>
+    </g>
+
+    <!-- Status Pill -->
+    <g transform="translate(68, 6)">
+      <rect x="0" y="0" width="335" height="24" rx="12" fill="#1A1228" stroke="#9814DC" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="14" cy="12" r="3.5" fill="#C084FC"/>
+      <text x="26" y="16" fill="#E9D5FF" font-size="10.5" font-weight="600" letter-spacing="1.4" class="font-mono">LEAD FULLSTACK DEVELOPER &amp; ARCHITECT</text>
+    </g>
+
+    <text x="68" y="46" fill="#64748B" font-size="12" font-weight="500" letter-spacing="1" class="font-mono">@AlulCode45  •  alulcode.vercel.app</text>
+
+    <!-- Full Name Headline -->
+    <text x="0" y="102" fill="#F8FAFC" font-size="36" font-weight="800" letter-spacing="-0.5" class="font-sans">Muhammad Khoyron</text>
+    <text x="0" y="144" fill="url(#accentGrad)" font-size="34" font-weight="800" letter-spacing="-0.5" class="font-sans">Ahlaqul Firdaus</text>
+
+    <!-- Editorial Thesis Tagline -->
+    <text x="0" y="182" fill="#CBD5E1" font-size="14.5" font-weight="400" class="font-sans">
+      Building resilient digital systems with <tspan fill="#F8FAFC" font-weight="600">clarity</tspan>, <tspan fill="#C084FC" font-weight="600">substance</tspan>, and <tspan fill="#38BDF8" font-weight="600">mechanical rigor</tspan>.
+    </text>
+
+    <!-- Architecture Tags -->
+    <g transform="translate(0, 202)">
+      <rect x="0" y="0" width="142" height="28" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <text x="71" y="18" text-anchor="middle" fill="#E2E8F0" font-size="11.5" font-weight="600" class="font-mono">Next.js / React</text>
+
+      <rect x="152" y="0" width="146" height="28" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <text x="225" y="18" text-anchor="middle" fill="#E2E8F0" font-size="11.5" font-weight="600" class="font-mono">Laravel / PHP 8+</text>
+
+      <rect x="308" y="0" width="148" height="28" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <text x="382" y="18" text-anchor="middle" fill="#E2E8F0" font-size="11.5" font-weight="600" class="font-mono">TypeScript / SQL</text>
+
+      <rect x="466" y="0" width="142" height="28" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <text x="537" y="18" text-anchor="middle" fill="#E2E8F0" font-size="11.5" font-weight="600" class="font-mono">Docker / Linux</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Architectural Telemetry Terminal Card -->
+  <g transform="translate(715, 76)">
+    <!-- Terminal Drop Shadow / Glow -->
+    <rect x="-2" y="-2" width="433" height="236" rx="14" fill="none" stroke="url(#accentGrad)" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="429" height="232" rx="12" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+
+    <!-- Terminal Window Header -->
+    <path d="M 0 12 Q 0 0 12 0 L 417 0 Q 429 0 429 12 L 429 34 L 0 34 Z" fill="#181524"/>
+    <line x1="0" y1="34" x2="429" y2="34" stroke="#27233A" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#EF4444"/>
+    <circle cx="34" cy="17" r="5" fill="#F59E0B"/>
+    <circle cx="50" cy="17" r="5" fill="#10B981"/>
+    <text x="214" y="21" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600" class="font-mono">alulcode@architect:~/telemetry</text>
+
+    <!-- Terminal Code Body -->
+    <g transform="translate(20, 56)" class="font-mono" font-size="12">
+      <text x="0" y="0" fill="#64748B">01</text>
+      <text x="28" y="0" fill="#C084FC">const</text>
+      <text x="72" y="0" fill="#38BDF8">engineer</text>
+      <text x="138" y="0" fill="#94A3B8">=</text>
+      <text x="152" y="0" fill="#F8FAFC">{</text>
+
+      <text x="0" y="22" fill="#64748B">02</text>
+      <text x="44" y="22" fill="#94A3B8">role:</text>
+      <text x="88" y="22" fill="#A7F3D0">"Project Lead Developer"</text>
+      <text x="262" y="22" fill="#94A3B8">,</text>
+
+      <text x="0" y="44" fill="#64748B">03</text>
+      <text x="44" y="44" fill="#94A3B8">org:</text>
+      <text x="88" y="44" fill="#FDE68A">"PT Pusat Andalan Sukses Terpadu"</text>
+      <text x="328" y="44" fill="#94A3B8">,</text>
+
+      <text x="0" y="66" fill="#64748B">04</text>
+      <text x="44" y="66" fill="#94A3B8">venture:</text>
+      <text x="110" y="66" fill="#DDD6FE">"Founder @ JagatByte Studio"</text>
+      <text x="314" y="66" fill="#94A3B8">,</text>
+
+      <text x="0" y="88" fill="#64748B">05</text>
+      <text x="44" y="88" fill="#94A3B8">flagships:</text>
+      <text x="122" y="88" fill="#F8FAFC">[</text>
+      <text x="132" y="88" fill="#38BDF8">"ATraderTerminal"</text>
+      <text x="255" y="88" fill="#94A3B8">,</text>
+      <text x="266" y="88" fill="#C084FC">"Boostera.ai"</text>
+      <text x="362" y="88" fill="#F8FAFC">]</text>
+      <text x="370" y="88" fill="#94A3B8">,</text>
+
+      <text x="0" y="110" fill="#64748B">06</text>
+      <text x="44" y="110" fill="#94A3B8">honors:</text>
+      <text x="102" y="110" fill="#FDBA74">"1st Nat'l WebDev &amp; Bug Hunter"</text>
+      <text x="328" y="110" fill="#94A3B8">,</text>
+
+      <text x="0" y="132" fill="#64748B">07</text>
+      <text x="44" y="132" fill="#94A3B8">philosophy:</text>
+      <text x="130" y="132" fill="#F472B6">"Design × Mechanical Rigor"</text>
+
+      <text x="0" y="154" fill="#64748B">08</text>
+      <text x="28" y="154" fill="#F8FAFC">};</text>
+      <rect x="52" y="143" width="8" height="14" fill="#38BDF8" class="pulse"/>
+    </g>
+  </g>
+
+  <!-- Bottom Editorial Footer Bar -->
+  <g transform="translate(56, 357)" class="font-mono" font-size="11" fill="#64748B">
+    <text x="0" y="0">[01] INTENTION: Zero Decorative Bloat</text>
+    <text x="360" y="0">[02] PERFORMANCE: Sub-Second Response &amp; 60fps UI</text>
+    <text x="795" y="0">[03] ARCHITECTURE: Clean Domain Boundaries</text>
+  </g>
+</svg>

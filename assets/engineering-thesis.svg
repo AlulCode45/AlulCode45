@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0A10"/>
+      <stop offset="100%" stop-color="#0E131F"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9814DC"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="accentC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="accentMid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+  </style>
+
+  <!-- Card 1: Motif A (Architecture & Application) -->
+  <g transform="translate(0, 0)">
+    <rect x="1" y="1" width="384" height="268" rx="14" fill="url(#bgCard)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="384" height="4" rx="2" fill="url(#accentA)"/>
+    
+    <rect x="24" y="24" width="110" height="22" rx="6" fill="#1F122B" stroke="#9814DC" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="79" y="39" text-anchor="middle" fill="#E9D5FF" font-size="10.5" font-weight="700" letter-spacing="1.2" class="font-mono">[ MOTIF A // 01 ]</text>
+
+    <text x="24" y="76" fill="#F8FAFC" font-size="19" font-weight="800" class="font-sans">Backend &amp; Systems Rigor</text>
+    <text x="24" y="98" fill="#94A3B8" font-size="12.5" class="font-sans">Mechanical reliability behind every interaction.</text>
+
+    <line x1="24" y1="114" x2="360" y2="114" stroke="#1E293B" stroke-width="1"/>
+
+    <g transform="translate(24, 138)" class="font-sans" font-size="12.5" fill="#CBD5E1">
+      <circle cx="6" cy="-4" r="3" fill="#C084FC"/>
+      <text x="18" y="0"><tspan fill="#F8FAFC" font-weight="600">Relational Integrity:</tspan> Normalized PostgreSQL</text>
+      <text x="18" y="18" fill="#94A3B8">schemas, ACID transactions &amp; B-Tree/GIN indexing.</text>
+
+      <circle cx="6" cy="44" r="3" fill="#C084FC"/>
+      <text x="18" y="48"><tspan fill="#F8FAFC" font-weight="600">Service Orchestration:</tspan> Laravel queues, Redis</text>
+      <text x="18" y="66" fill="#94A3B8">atomic locks, policy auth &amp; idempotent pipelines.</text>
+
+      <circle cx="6" cy="92" r="3" fill="#C084FC"/>
+      <text x="18" y="96"><tspan fill="#F8FAFC" font-weight="600">Reproducible Infra:</tspan> Multi-stage Docker builds,</text>
+      <text x="18" y="114" fill="#94A3B8">Nginx reverse proxies &amp; Linux daemon hardening.</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Motif C (Code & Creativity) -->
+  <g transform="translate(408, 0)">
+    <rect x="1" y="1" width="384" height="268" rx="14" fill="url(#bgCard)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="384" height="4" rx="2" fill="url(#accentC)"/>
+
+    <rect x="24" y="24" width="110" height="22" rx="6" fill="#0D222E" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="79" y="39" text-anchor="middle" fill="#A5F3FC" font-size="10.5" font-weight="700" letter-spacing="1.2" class="font-mono">[ MOTIF C // 02 ]</text>
+
+    <text x="24" y="76" fill="#F8FAFC" font-size="19" font-weight="800" class="font-sans">Frontend &amp; Tactile Emotion</text>
+    <text x="24" y="98" fill="#94A3B8" font-size="12.5" class="font-sans">Editorial clarity meets sub-second responsiveness.</text>
+
+    <line x1="24" y1="114" x2="360" y2="114" stroke="#1E293B" stroke-width="1"/>
+
+    <g transform="translate(24, 138)" class="font-sans" font-size="12.5" fill="#CBD5E1">
+      <circle cx="6" cy="-4" r="3" fill="#38BDF8"/>
+      <text x="18" y="0"><tspan fill="#F8FAFC" font-weight="600">State Architecture:</tspan> Strictly typed React &amp;</text>
+      <text x="18" y="18" fill="#94A3B8">Next.js App Router with deterministic state flows.</text>
+
+      <circle cx="6" cy="44" r="3" fill="#38BDF8"/>
+      <text x="18" y="48"><tspan fill="#F8FAFC" font-weight="600">Zero-CLS Choreography:</tspan> Rapid paint times, 60fps</text>
+      <text x="18" y="66" fill="#94A3B8">motion physics &amp; Web Worker client filtering.</text>
+
+      <circle cx="6" cy="92" r="3" fill="#38BDF8"/>
+      <text x="18" y="96"><tspan fill="#F8FAFC" font-weight="600">Design Systems:</tspan> Custom Tailwind tokens, high</text>
+      <text x="18" y="114" fill="#94A3B8">contrast typography &amp; accessible component primitives.</text>
+    </g>
+  </g>
+
+  <!-- Card 3: Security & Execution Discipline -->
+  <g transform="translate(816, 0)">
+    <rect x="1" y="1" width="383" height="268" rx="14" fill="url(#bgCard)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="1" y="1" width="383" height="4" rx="2" fill="url(#accentMid)"/>
+
+    <rect x="24" y="24" width="130" height="22" rx="6" fill="#0B261E" stroke="#10B981" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="89" y="39" text-anchor="middle" fill="#A7F3D0" font-size="10.5" font-weight="700" letter-spacing="1.2" class="font-mono">[ DISCIPLINE // 03 ]</text>
+
+    <text x="24" y="76" fill="#F8FAFC" font-size="19" font-weight="800" class="font-sans">Security &amp; Product Impact</text>
+    <text x="24" y="98" fill="#94A3B8" font-size="12.5" class="font-sans">Verified resilience under real-world pressure.</text>
+
+    <line x1="24" y1="114" x2="359" y2="114" stroke="#1E293B" stroke-width="1"/>
+
+    <g transform="translate(24, 138)" class="font-sans" font-size="12.5" fill="#CBD5E1">
+      <circle cx="6" cy="-4" r="3" fill="#10B981"/>
+      <text x="18" y="0"><tspan fill="#F8FAFC" font-weight="600">Offensive &amp; Defensive Mindset:</tspan> Recognized Bug</text>
+      <text x="18" y="18" fill="#94A3B8">Hunter (Responsible Vulnerability Disclosures).</text>
+
+      <circle cx="6" cy="44" r="3" fill="#10B981"/>
+      <text x="18" y="48"><tspan fill="#F8FAFC" font-weight="600">Real-Time &amp; AI Pipelines:</tspan> Low-latency WebSocket</text>
+      <text x="18" y="66" fill="#94A3B8">feeds (12ms) &amp; DeepSeek/Gemini LLM synthesis.</text>
+
+      <circle cx="6" cy="92" r="3" fill="#10B981"/>
+      <text x="18" y="96"><tspan fill="#F8FAFC" font-weight="600">Championship Execution:</tspan> 2× 1st Place National</text>
+      <text x="18" y="114" fill="#94A3B8">Web Dev Winner &amp; 29+ verified credentials.</text>
+    </g>
+  </g>
+</svg>
